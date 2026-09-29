@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: fit-content;
+    font-family: Overpass;
+}
+
+.firstcon {
+    background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    height: 600px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 5;
+
+
+
+}
+
+.pic1 {
+    margin: -1250px 0 0 -200px;
+    height: 3000px;
+    width: auto;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+
+
+}
+
+
+
+.con1 {
+    width: 90%;
+    display: flex;
+    margin: 40px auto;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.conin1 {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   margin-right: 70px;
+}
+   
+
+.coin2 {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   font-size: 20px;
+
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.com {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#blog {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.conin2 {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    font-size: 20px;
+}
+
+button {
+    height:60px;
+    width: 200px;
+    border-radius: 30px;
+    color:  hsl(356, 100%, 66%);
+    font-weight: 700;
+    border: none;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+   
+}
+
+.con2 {
+   
+   width: 100%;
+   margin-top: 80px;
+   height: fit-content;
+}
+
+#ern { 
+    color: white;
+    font-size: 110px;
+    text-align: center;
+}
+
+#grow {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    
+}
+
+.butcon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+#start:hover {
+    background-color:hsl(355, 100%, 74%); 
+    cursor: pointer;
+    color: white;
+    transition: ease-in 0.2s;
+   
+}
+
+
+
+#mor {
+    color: white;
+    border: 1px solid white;
+    background-color:hsl(356, 100%, 66%); 
+
+}
+
+#mor:hover {
+    color:hsl(355, 100%, 74%);
+    background-color: white;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+#up:hover {
+    background-color:hsl(355, 100%, 74%); 
+    cursor: pointer;
+    color: white;
+    transition: ease-in 0.2s;
+}
+
+#des {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    color:hsl(208, 49%, 24%);
+    
+    
+}
+
+.secondcon {
+    width: 100%;
+    height:1000px;
+    padding-left:80px;
+    overflow: hidden;
+    position: relative;
+   
+}
+.pic2 {
+  height: auto;
+  position: absolute;
+  left: 1250px;
+  top: 40px;
+
+    
+}
+
+.secon1 {
+   display: flex;
+    justify-content: space-between;
+    height: 900px
+}
+.secin1 {
+    width: 50%;
+    margin-top: 60px;
+    color:hsl(207, 13%, 34%);
+}
+
+
+
+#editor {
+    font-size: 40px;
+    color:hsl(208, 49%, 24%);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#edi2 {
+    font-size: 25px;
+    line-height: 45px;
+    
+}
+
+#rob {
+    font-size: 40px;
+    color:hsl(208, 49%, 24%);
+    font-weight: 600;
+    margin-top: 80px;
+
+}
+
+#flex {
+    font-size: 25px;
+    line-height: 45px;
+    margin-top: 30px;
+
+}
+
+.thirdcon {
+    background: linear-gradient(to left ,hsl(237, 23%, 32%),hsl(237, 17%, 21%));
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.patc {
+    position: absolute;
+    height: auto;
+    top: -500px;
+    left: -150px;
+    
+}
+
+.phone {
+    position: absolute;
+    margin-left: 60px;
+    top: -60px;
+   ;
+   
+
+}
+.pc3b {
+    width: 40%;
+    
+    
+
+
+}
+
+.tdin1 {
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    z-index: 1;
+    gap: 50px;
+   
+}
+
+#state {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#rely {
+    color:hsl(0, 100%, 100%, 0.7);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+    
+    
+
+
+.tdin2 {
+    width: 40%;
+    margin-top: 100px;
+    height: 400px;
+    
+}
+
+.fourbox {
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    height: 800px;
+  
+    
+
+  
+  
+}
+
+.four1 {
+    display: flex;
+
+    
+     
+}
+
+.fr2 {
+    width: 50%;
+    height: 800px;
+}
+
+
+
+.pic3 {
+    position: absolute;
+    left: -300px;
+
+    
+    
+
+}
+
+.fthin {
+    width: 40%;
+    margin-top: 160px;
+    color:  hsl(207, 13%, 34%);
+   
+}
+
+#sim {
+    font-size: 40px;
+    color:hsl(208, 49%, 24%);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#tol {
+    font-size: 40px;
+    color:hsl(208, 49%, 24%);
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#sim2 {
+    font-size: 20px;
+    line-height: 40px;
+    
+
+}
+
+#tol2 {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.lastbox {
+    background-color:hsl(237, 17%, 21%);
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+    border-top-right-radius: 50px;
+    padding: 50px 100px;
+
+}   
+
+.last1 {
+    width: 90%;
+    display: flex;
+    gap: 180px;
+    
+    
+
+}
+.lastin {
+    display: flex;
+    color:hsl(0, 100%, 100%, 0.5);
+    width: 50%;
+    justify-content: space-between;
+}
+
+.lin1, .lin2, .lin3 {
+    line-height: 30px;
+}
+@media (max-width: 440px) {
+    body {
+        width: 100%;
+    }
+
+    .firstcon {
+        width: 100%;
+        height: 600px;
+        border-bottom-left-radius:100px;
+        position: relative;
+        background-size: cover;
+        overflow: hidden;
+        z-index: 5;
+        border: 2px solid black;
+    }
+
+    .coin2, .conin2{
+        display: none;
+    }
+    
+    .con2 {
+         width: 100%;
+         height: fit-content;
+         padding: 40px;
+         border: 2px solid black;
+         
+         
+         
+
+         
+   
+    }
+
+    #ern {
+        font-size: 40px;
+        
+    }
+
+    #grow {
+        font-size: 20px;
+        
+    }
+
+    .pic1{
+        height: 1500px;
+    }
+
+    .butcon{
+        margin-top: 60px;
+    }
+    button {
+        height: 50px;
+        width: 500px;
+    }
+
+    .secondcon {
+        border: 2px solid black;
+        width: 100%;
+        padding-left: 50px;
+        height: fit-content;
+       position: relative;
+       overflow: none;
+        
+
+    }
+
+    #des {
+         font-size: 40px;
+         text-align: center;
+    }
+    
+    .secon1 {
+        display: block;
+        height:1500px;
+        width: 100%;
+        
+
+    }
+
+    .pic2 {
+        position: static;
+        height:auto;
+        top: 0;
+        display: none;
+    }
+
+
+        
+
+    
+}
