@@ -19,6 +19,7 @@ body {
     background-size: cover;
     overflow: hidden;
     z-index: 5;
+    /* background-image: url('images/bg-pattern-intro-desktop.svg'); */
 
 
 
@@ -170,6 +171,7 @@ button {
     font-size: 70px;
     margin-top: 50px;
     color:hsl(208, 49%, 24%);
+    font-weight: 600;
     
     
 }
@@ -241,7 +243,7 @@ button {
     border-bottom-left-radius: 80px;
     overflow: hidden;
     position: relative;
-    z-index: 10;
+    
     
 }
 
@@ -253,31 +255,33 @@ button {
     
 }
 
+.edmob {
+    display: none;
+}
+
+
+.pc3b {
+    
+    width: 40%;
+    margin-left: 80px;
+    height: 400px;
+    
+}
+
+
 .phone {
     position: absolute;
-    margin-left: 60px;
-    top: -60px;
-   ;
+    
    
-
-}
-.pc3b {
-    width: 40%;
-    
-    
-
-
 }
 
 .tdin1 {
     display: flex;
     width: 100%;
-    position: relative;
-    overflow: hidden;
     height: 400px;
-    z-index: 1;
-    gap: 50px;
-   
+    position: relative;
+    overflow: none
+
 }
 
 #state {
@@ -337,8 +341,10 @@ button {
     left: -300px;
 
     
-    
+}
 
+.pic4 {
+    display: none;
 }
 
 .fthin {
@@ -376,31 +382,51 @@ button {
 
 .lastbox {
     background-color:hsl(237, 17%, 21%);
-    width: 100%;
+    padding: 50px 0;
     height: fit-content;
-    margin-top: 80px;
-    border-top-right-radius: 50px;
-    padding: 50px 100px;
 
 }   
 
+#gr {
+    font-size: 40px; 
+    color: white;
+}
+
 .last1 {
-    width: 90%;
     display: flex;
-    gap: 180px;
-    
-    
+    justify-content: space-around;
+}
+#prod {
+    font-size: large;
+    color: white;
+    margin-bottom: 30px;
 
 }
+
+#pan {
+    font-size: large;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#necc {
+    font-size: large;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+
 .lastin {
     display: flex;
     color:hsl(0, 100%, 100%, 0.5);
     width: 50%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .lin1, .lin2, .lin3 {
     line-height: 30px;
+    font-size: 18px;
 }
 @media (max-width: 440px) {
     body {
@@ -408,14 +434,13 @@ button {
     }
 
     .firstcon {
-        width: 100%;
         height: 600px;
         border-bottom-left-radius:100px;
         position: relative;
         background-size: cover;
         overflow: hidden;
         z-index: 5;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
 
     .coin2, .conin2{
@@ -426,7 +451,7 @@ button {
          width: 100%;
          height: fit-content;
          padding: 40px;
-         border: 2px solid black;
+         /* border: 2px solid black; */
          
          
          
@@ -458,38 +483,202 @@ button {
     }
 
     .secondcon {
-        border: 2px solid black;
-        width: 100%;
-        padding-left: 50px;
-        height: fit-content;
+       /* border: 2px solid black; */
+       width: 100%;
+       height: fit-content;
        position: relative;
        overflow: none;
+       padding: 20px;
         
 
     }
 
     #des {
-         font-size: 40px;
+         font-size: 30px;
          text-align: center;
+         margin-bottom: 50px;
     }
     
     .secon1 {
         display: block;
-        height:1500px;
+        height: fit-content;
         width: 100%;
         
 
     }
 
     .pic2 {
-        position: static;
-        height:auto;
-        top: 0;
-        display: none;
+       display: none;
     }
 
-
+    .secin1 {
+        width: 100%;
+        text-align: center;
         
+    }
+
+    #editor {
+        font-size: 40px;
+        text-align: center;
+    }
+
+   
+
+   
+    #rob { 
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #edi2, #flex {
+
+        line-height: 40px;
+        font-size: 20px;
+        
+    }
+        
+
+.thirdcon {
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 600px;
+    padding: 20px;
+    
+
+
+}
+
+.patc {
+    right: 500px;
+
+   
+    
+}
+
+
+.phone {
 
     
 }
+.edmob {
+    display: block;
+    width: 100%;
+}
+.tdin1 {
+    display: block;
+   
+    
+}
+
+
+
+
+
+.tdin2 {
+    width: 100%;
+    margin-top: 0;
+    
+
+}
+
+.fourbox {
+    overflow: none;
+    height: 1000px;
+    /* border: 2px solid black; */
+    margin: 80px 0;
+
+   
+
+}
+
+.pic3 {
+    display: none;
+   
+}
+
+.pic4 {
+    display: block;
+    width: 100%;
+    
+}
+
+.four1 {
+    display: block;
+    padding:0 20px;
+    
+    
+    
+    
+}
+
+.fr2 {
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid black; */
+    margin-bottom: 40px;
+    
+}
+
+.fthin {
+    width: 100%;
+    margin-top: auto;
+    /* border: 2px solid black; */
+    text-align: center;
+    
+}
+
+#sim {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+#tol {
+    text-align: center;
+    font-size: 30px;
+}
+
+.lastbox {
+    height: 900px;
+    border-top-right-radius: 100px;
+    /* border: 2px solid black; */
+}
+
+
+
+.last1 {
+    display: block;
+    text-align: center;
+    
+
+    
+}
+
+.lastin {
+    display: block;
+    width: 100%;
+    
+}
+
+#gr {
+    margin-bottom: 50px;
+}
+
+#prod {
+    margin-bottom: 20px;
+}
+
+#pan {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#necc {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+}
+
